@@ -1,0 +1,63 @@
+/* CSS Layout - Flexbox, Floats, Grids, Responsive Design */
+
+/* Main layout with Flexbox */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Section styling */
+  section {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Floated image */
+  img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+section {
+  text-align: center;
+}
+  }
+  
+  /* Clear floats for footer */
+  footer {
+    clear: both;
+    background-color: #002a66;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  /* need to fix colors later */
+  /* Handle overflow */
+  section {
+    overflow: auto;
+  }
+  
+  /* Responsive design with media query */
+  @media screen and (max-width: 600px) {
+    nav ul li {
+      display: block;
+      border-top: 1px solid white;
+    }
+  
+    img {
+      float: none;
+      display: block;
+      margin: 0 auto;
+    }
+  
+    section {
+      width: 95%;
+    }
+  }
+  

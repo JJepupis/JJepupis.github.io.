@@ -1,0 +1,54 @@
+/* CSS Formatting - Fonts, Colors, Lists, Background */
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    list-style-type: none;
+    background-color: #194b77;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+  }
+  
+  /* Pseudo-class for hover effect */
+  nav ul li a:hover {
+    background-color: #004d4d;
+  }
+  
+  /* Headings */
+  h1, h2 {
+    color: #022150;
+    font-weight: bold; /* <-- "extra" property that isn't totally necessary but harmless */
+  }
+  
+  /* Contextual selector: article links */
+  .articles a {
+    color: #006666;
+    text-decoration: underline;
+    font-weigth: bold; /* <-- MISTAKE: "weigth" typo (common error) */
+  }
+  
+  /* Pseudo-class for article links hover */
+  .articles a:hover {
+    color: #003333;
+  }
+  
